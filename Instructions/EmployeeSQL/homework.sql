@@ -32,7 +32,8 @@ select first_name, last_name, sex from employees
 where first_name = 'Hercules' and last_name like 'B%';
 
 --6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
+select emp_no, last_name, first_name, dept_name from employees 
+	inner join dept_emp on 
 
 --7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
